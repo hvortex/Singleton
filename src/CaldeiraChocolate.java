@@ -26,15 +26,6 @@ public class CaldeiraChocolate {
         }
     }
 
-    public void ferver() {
-        if (!vazia) {
-            fervida = true; 
-            System.out.println("O chocolate está fervendo.");
-        } else {
-            System.out.println("A caldeira está vazia. Não é possível ferver o chocolate.");
-        }
-    }
-
     public void drenar() {
         if (!vazia) {
             vazia = true; 
@@ -42,6 +33,15 @@ public class CaldeiraChocolate {
             System.out.println("Caldeira drenada.");
         } else {
             System.out.println("A caldeira já está vazia.");
+        }
+    }
+
+    public void ferver() {
+        if (!vazia) {
+            fervida = true; 
+            System.out.println("O chocolate está fervendo.");
+        } else {
+            System.out.println("A caldeira está vazia. Não é possível ferver o chocolate.");
         }
     }
 }
