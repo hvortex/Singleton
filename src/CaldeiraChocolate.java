@@ -39,9 +39,9 @@ public class CaldeiraChocolate {
     public void ferver() {
         if (!vazia) {
             fervida = true; 
-            System.out.println("O chocolate está fervendo.");
+            System.out.println("O conteudo está fervendo.");
         } else {
-            System.out.println("A caldeira está vazia. Não é possível ferver o chocolate.");
+            System.out.println("A caldeira está vazia. Não é possível ferver o conteudo.");
         }
     }
 }
